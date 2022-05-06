@@ -1,0 +1,113 @@
+.tags li {
+  float: left;
+  text-decoration: none;
+  list-style: none;
+  padding: 1px;
+  margin: 3px 25px;
+  padding-top: 5px;
+}
+.index {
+  background-color: black;
+      color: rgb(255, 255, 255);
+      padding: 0px;
+      margin: -175px 0 0 0;
+      position: fixed;
+      width: 100%;
+      height: 55px;
+}
+.index ul {
+  overflow: auto;
+  margin: 10px -20px;
+}
+.searc {
+      padding: 3px 15px;
+      width: 140px;
+      border-radius: 5px;
+      border: 2px;
+      margin: 5px 0 0 0;
+}
+.search {
+  float: right;
+  padding: 2px 100px;
+}
+body {
+  margin: 0px;
+  padding: 0px;
+  background-image: url(https://images.pexels.com/photos/5327534/pexels-photo-5327534.jpeg?auto=compr);
+  background-size: 1280px 800px;
+  background-position: 150px 0px;
+  color: white;
+}
+.image img {
+  position: absolute;
+  width: 10%;
+  filter: invert(100%);
+  top: 95%;
+  right: 6px;
+}
+.k {
+  position: absolute;
+  top: 107%;
+  right: 5px;
+}
+h4 {
+  font-size: 150%;
+  color: rgb(2, 69, 255);
+}
+.index li a:hover {
+  color: rgb(16, 214, 218);
+  text-decoration: none;
+}
+.index li a {
+  color: rgb(240, 240, 240);
+  text-decoration: none;
+  font-size: 110%;
+}
+.container {
+  border: 6px solid rgb(81, 86, 97);
+  margin: 175px 0 0 70px;
+  padding: 0px 0px;
+  width: 33%;
+  height: 66%;
+  border-radius: 18px;
+}
+.head {
+  text-align: center;
+}
+.details {
+  padding: 22px 18px;
+  line-height: 28px;
+}
+.name {
+  margin: 2px 22px;
+}
+.age {
+  margin: 2px 30px;
+}
+.contact {
+  margin: 2px 10px;
+}
+.locality {
+  margin: 2px 27px;
+}
+.finish {
+  margin: 2px 115px;
+  border-radius: 20px;
+}
+.finish:hover {
+  border: 2px solid rgb(20, 216, 157);
+  border-radius: 20px;
+  color: blue;
+  cursor: pointer;
+}
+.head {
+  color: aqua;
+}
+p {
+  font-size: 110%;
+}
+.logo{
+  width: 75px;
+height: 70px;
+margin: -25px 0 0 0;
+}
